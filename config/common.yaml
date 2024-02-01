@@ -1,0 +1,10 @@
+app: MantalusDeployHavaRole
+name: Hava
+Tags:
+  contact: sofian.so@mantalus.com
+  owner: Mantalus
+  repo: mantalus-deploy-hava-role
+  costCode: hava
+  repoUrl: https://github.com/mantalus/mantalus-deploy-hava-role
+havaAwsAccount: '281013829959'
+havaExternalId: '328d0c28ab02ace75eb211f97102d92b'
