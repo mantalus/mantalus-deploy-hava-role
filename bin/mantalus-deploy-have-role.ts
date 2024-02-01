@@ -41,6 +41,7 @@ async function Main() {
     havaAwsAccount: buildConfig.havaAwsAccount,
     havaExternalId: buildConfig.havaExternalId,
     tags: commonTags,
+    description: "This stack creates an IAM policy and role that allows Hava to read your AWS resources."
   });
 }
 

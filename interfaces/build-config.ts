@@ -8,7 +8,6 @@ export interface BuildConfig {
 }
 
 export interface Tags {
-    contact:  string;
     owner:    string;
     repo:     string;
     costCode: string;

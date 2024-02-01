@@ -1,7 +1,6 @@
 app: MantalusDeployHavaRole
 name: Hava
 Tags:
-  contact: sofian.so@mantalus.com
   owner: Mantalus
   repo: mantalus-deploy-hava-role
   costCode: hava
