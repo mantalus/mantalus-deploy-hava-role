@@ -29,3 +29,9 @@ The `ENV` variable should match the name of the file in `config` folder.
 5.  `make destroy STACK_NAME=<NAME_OF_STACK> ENV=<mantalus-dev/mantalus-prod/etc>` to destroy a certain CDK stack.
 6.  `make synth STACK_NAME=<NAME_OF_STACK> ENV=<mantalus-dev/mantalus-prod/etc>` to sync all stacks that are in `bin` directory
 
+
+## Post-Deployment Steps
+
+Below are a couple of additional steps after the role has been successfully deployed in the account:
+1. You need to find and copy the role ARN and use it to allow Hava to use the role.
+2. Log in to your account on [Hava](https://www.hava.io/) and click on **Add Source**, which takes you to a page where you can paste the role ARN and add a name for the account. 
